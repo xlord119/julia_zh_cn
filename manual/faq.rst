@@ -16,9 +16,7 @@ Julia 没有 MATLAB 的 ``clear`` 函数；在 Julia 会话（准确来说， ``
 
 如何在会话中修改 type/immutable 的声明？
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Perhaps you've defined a type and and then realize you need to add a
-new field.  If you try this at the REPL, you get the error::
+可能你定义了一种类型，这时你认识到需要添加新的内存。如果你在REPL中尝试，则会得到错误：
 
     ERROR: invalid redefinition of constant MyType
 
